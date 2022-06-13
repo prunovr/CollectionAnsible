@@ -1,0 +1,7 @@
+---
+- name: Testing collection role
+  hosts: all
+  tasks:
+    - name: Test collection role
+      import_role:
+        name: my_own_namespace.yandex_cloud_elk.my_own_role

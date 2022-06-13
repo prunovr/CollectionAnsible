@@ -1,0 +1,8 @@
+---
+- name: run the module
+  hosts: all
+  tasks:
+    - name: test module
+      my_own_module:
+        path: "/tmp/test.txt"
+        content: "bla-bla-bla"

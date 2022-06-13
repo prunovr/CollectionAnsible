@@ -1,0 +1,5 @@
+---
+- name: run the module
+  my_own_module:
+    path: "{{ path }}"
+    content: "{{ content }}"
